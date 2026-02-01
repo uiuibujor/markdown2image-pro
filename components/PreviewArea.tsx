@@ -65,7 +65,9 @@ export const PreviewArea: React.FC<PreviewAreaProps> = ({
       {pages.map((page, index) => (
         <div 
           key={page.id}
-          ref={el => pageRefs.current[index] = el}
+          ref={(el) => {
+            pageRefs.current[index] = el;
+          }}
           style={{ width: `${config.width}px` }}
           className={`${theme.bg} transition-all duration-300`}
         >
