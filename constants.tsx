@@ -47,6 +47,15 @@ export const THEMES = {
     accent: 'text-purple-600',
     header: 'border-b border-purple-100',
     code: 'bg-purple-50 text-purple-700',
+  },
+  'gradient-pink-blue': {
+    name: '棉花糖',
+    bg: 'bg-gradient-to-br from-blue-400 via-purple-300 to-pink-300 p-8',
+    text: 'text-slate-800',
+    container: 'bg-white/90 backdrop-blur shadow-2xl rounded-2xl border border-white/50',
+    accent: 'text-pink-500',
+    header: 'border-b border-pink-100',
+    code: 'bg-pink-50 text-pink-600',
   }
 };
 

@@ -1,6 +1,6 @@
 
 export interface ExportConfig {
-  theme: 'modern-light' | 'dark-minimal' | 'serif-classic' | 'gradient-blue' | 'gradient-purple';
+  theme: 'modern-light' | 'dark-minimal' | 'serif-classic' | 'gradient-blue' | 'gradient-purple' | 'gradient-pink-blue';
   fontSize: number;
   lineHeight: number;
   padding: number;

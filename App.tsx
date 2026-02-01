@@ -112,7 +112,7 @@ const App: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-2">
-            <div className="bg-slate-100 p-1 rounded-lg flex mr-4">
+            <div className="bg-slate-100 p-1 rounded-lg flex mr-4 md:hidden">
               <button 
                 onClick={() => setActiveTab('edit')}
                 className={`flex items-center gap-1.5 px-4 py-1.5 rounded-md text-sm font-medium transition-all ${
@@ -210,7 +210,7 @@ const App: React.FC = () => {
                 value={markdown}
                 onChange={(e) => setMarkdown(e.target.value)}
                 placeholder="在此输入您的 Markdown 内容..."
-                className="w-full flex-1 p-8 text-slate-800 mono text-lg leading-relaxed resize-none focus:outline-none focus:ring-0 selection:bg-blue-100 placeholder:text-slate-300 placeholder:italic bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:24px_24px]"
+                className="w-full flex-1 p-8 text-slate-800 text-[13px] leading-relaxed resize-none focus:outline-none focus:ring-0 selection:bg-blue-100 placeholder:text-slate-300 placeholder:italic"
                 spellCheck={false}
                 autoFocus
               />
